@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
-MainWindow::~MainWindow()                     // деструктор(очистка памяти)
+MainWindow::~MainWindow()                    
 {
     delete ui;
 }
