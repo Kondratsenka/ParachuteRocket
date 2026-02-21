@@ -5,17 +5,17 @@
 
 
 struct Rocket {
-    int altitude;                                    // высота
-    float velocity;                                 // скорость
-    float mass;                                    // масса
-    float fuel;                                   // количество топлива
-    int thrust;                                  // сила двигателя
+    int altitude;                                    // высота 
+    float velocity;                                 // скорость ракеты
+    float mass;                                    // масса ракеты
+    float fuel;                                   // количество топлива в ракете 
+    int thrust;                                  // сила двигателя ракеты
 };
 
 struct Parachute {
 
-    float deployAltitude;                   // высота раскрытия 
-    float drag;                            // сила сопратевления
+    float deployAltitude;                   // высота раскрытия парашута
+    float drag;                            // сила сопратевления ветра 
 };
 
 QT_BEGIN_NAMESPACE
