@@ -34,6 +34,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
     Rocket rocket;
     Parachute chute;
 };
