@@ -5,6 +5,7 @@
 
 
 struct Rocket {
+
     int altitude;                                    // высота 
     float velocity;                                 // скорость ракеты
     float mass;                                    // масса ракеты
