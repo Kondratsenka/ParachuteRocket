@@ -13,3 +13,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_launch_button_clicked() {
+    
+}
