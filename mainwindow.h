@@ -5,19 +5,21 @@
 
 
 struct Rocket {
+    float altitude;                                  // высота
+    float velocity;                                 // скорость
+    float mass;                                    // масса
+    float fuel;                                   // количество топлива
+    float thrust;                                // сила двигателя
 
-    int altitude;                                    // высота 
-    float velocity;                                 // скорость ракеты
-    float mass;                                    // масса ракеты
-    float fuel;                                   // количество топлива в ракете 
-    int thrust;                                  // сила двигателя ракеты
 };
 
 struct Parachute {
 
-    float deployAltitude;                   // высота раскрытия парашута
-    float drag;                            // сила сопратевления ветра 
+    float deployAltitude;                  //высота раскрытия
+    float drag;                           // сила сопратевления
+
 };
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -33,10 +35,19 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+public:
+
+
+    void inputRocket();
+
+private slots:
+
+    void on_launch_button_clicked();
+
 private:
     Ui::MainWindow *ui;
 
-    Rocket rocket;
-    Parachute chute;
+    Rocket rocket{};
+    Parachute chute{};
 };
 #endif // MAINWINDOW_H
