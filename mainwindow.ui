@@ -131,13 +131,29 @@
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>410</y>
-      <width>100</width>
-      <height>32</height>
+      <y>400</y>
+      <width>131</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string/>
+     <string>Launch </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_status">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">ui-&gt;labelStatus-&gt;setStyleSheet(&quot;color: green;&quot;);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>
