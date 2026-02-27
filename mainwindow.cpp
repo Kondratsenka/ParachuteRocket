@@ -29,6 +29,7 @@ void MainWindow::inputRocket() {
     qDebug() << "Начальная скорость:"<<rocket.velocity<<"m/s";
     qDebug() << "Коэффициент сопротивления:"<<chute.drag;
     ui->label_status->setText("Параметры успешно загружены!");
+    
 }
 
 
