@@ -17,11 +17,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::inputRocket() {
 
-    rocket.mass = ui->spin_Rocket_mass->value();
-    rocket.altitude = ui->spin_Start_altitude->value();
-    rocket.velocity = ui->spin_Start_velocity->value();
-    chute.deployAltitude = ui->spin_Deploy_altitude->value();
-    chute.drag = ui->spin_Drag_koaf->value();
+    rocket.mass = ui->spin_Rocket_mass->value();                         // масса ракеты
+    rocket.altitude = ui->spin_Start_altitude->value();                 // начальная высота
+    rocket.velocity = ui->spin_Start_velocity->value();                // стартовая скорость
+    chute.deployAltitude = ui->spin_Deploy_altitude->value();         // высота, на которой должен раскрыться парашют
+    chute.drag = ui->spin_Drag_koaf->value();                        // коэффициент сопротивления парашюта
 
     qDebug() << "Масса:" << rocket.mass << "kg";
     qDebug() << "Высота раскрытия:" << chute.deployAltitude << "m";
