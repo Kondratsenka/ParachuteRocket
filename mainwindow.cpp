@@ -28,7 +28,7 @@ void MainWindow::inputRocket() {
     qDebug() << "Начальная высота:" <<rocket.altitude<<"m";
     qDebug() << "Начальная скорость:"<<rocket.velocity<<"m/s";
     qDebug() << "Коэффициент сопротивления:"<<chute.drag;
-    ui->label_status->setText("Параметры успешно загружены!");
+    ui->label_status->setText("Параметры успешно загружены!!!");
     
 }
 
