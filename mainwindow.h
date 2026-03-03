@@ -15,7 +15,7 @@ struct Rocket {
 
 struct Parachute {
 
-    float deployAltitude;                  // высота раскрытия
+    float deployAltitude;                  // высота раскрытия парашюта
     float drag;                           // сила сопратевления
 
 };
