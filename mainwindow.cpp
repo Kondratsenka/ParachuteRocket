@@ -35,7 +35,7 @@ void MainWindow::inputRocket() {
 }
 
 
-void MainWindow::on_launch_button_clicked() {    // кнопка запуска 
+void MainWindow::on_launch_button_clicked() {                    // кнопка запуска 
     inputRocket();
 
 }
