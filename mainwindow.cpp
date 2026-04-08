@@ -22,7 +22,7 @@ void MainWindow::inputRocket() {
     rocket.velocity = ui->spin_Start_velocity->value();                                                     // стартовая скорость ракеты
     chute.deployAltitude = ui->spin_Deploy_altitude->value();                                              // высота, на которой должен раскрыться парашют
     chute.drag = ui->spin_Drag_koaf->value();                                                             // коэффициент сопротивления парашюта
-    ui->label_current_height->setText("Текущая высота: " + QString::number(rocket.altitude) + "м");      // отображаем тек. высоту на форме
+    ui->label_current_height->setText("Текущая высота: " + QString::number(rocket.altitude) + "м");       // отображаем тек. высоту на форме
     
 
     qDebug() << "Масса:" << rocket.mass << "kg";
